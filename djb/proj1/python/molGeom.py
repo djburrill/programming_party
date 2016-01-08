@@ -351,7 +351,7 @@ if (__name__ == '__main__'):
     # Note that the values are slightly different! Which one is correct?!
     print PMOI
 
-    # Calculate rotational constants
+    # Calculate rotational constants (cm^-1)
     A = (sc.h/sc.c)*(1.0/(8.0*np.pi*np.pi)/(0.5291772e-10*0.5291772e-10*1.6605389e-27))
     B = (sc.h/sc.c)*(1.0/(8.0*np.pi*np.pi)/(0.5291772e-10*0.5291772e-10*1.6605389e-27))
     C = (sc.h/sc.c)*(1.0/(8.0*np.pi*np.pi)/(0.5291772e-10*0.5291772e-10*1.6605389e-27))
